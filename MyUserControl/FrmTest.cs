@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PrettyCommonControl;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,11 +11,16 @@ using System.Windows.Forms;
 
 namespace MyUserControl
 {
-    public partial class Form1 : Form
+    public partial class FrmTest : Form
     {
-        public Form1()
+        public FrmTest()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            UCMessageBox.Show("获得 媳妇儿 一个",this);
         }
     }
 }
