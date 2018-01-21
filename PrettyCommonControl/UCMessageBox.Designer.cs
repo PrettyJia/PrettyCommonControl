@@ -36,7 +36,7 @@
             // lblContent
             // 
             this.lblContent.Font = new System.Drawing.Font("微软雅黑", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lblContent.Location = new System.Drawing.Point(0, 24);
+            this.lblContent.Location = new System.Drawing.Point(0, 14);
             this.lblContent.Name = "lblContent";
             this.lblContent.Size = new System.Drawing.Size(211, 23);
             this.lblContent.TabIndex = 0;
@@ -53,7 +53,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(211, 70);
+            this.ClientSize = new System.Drawing.Size(211, 51);
             this.Controls.Add(this.lblContent);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
